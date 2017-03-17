@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pi/raspberryPi_Modules/RaspberryPi_Http/httpClient.cpp
+stdio.h
+-
+iostream
+-
+curl/curl.h
+-
+
