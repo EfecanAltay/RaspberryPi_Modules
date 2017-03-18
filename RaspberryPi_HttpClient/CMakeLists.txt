@@ -9,7 +9,7 @@ link_libraries(${JSONCPP_LIBRARIES})
 
 include_directories(${CURL_INCLUDE_DIRS})
 
-add_executable(Http httpClient.cpp)
+add_executable(Http httpClient.cpp main.cpp)
 
 target_link_libraries(Http ${CURL_LIBRARIES})
 target_link_libraries(Http ${JSONCPP_LIBRARIES})

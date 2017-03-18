@@ -3,3 +3,7 @@
 
 CMakeFiles/Http.dir/httpClient.cpp.o
  /home/pi/raspberryPi_Modules/RaspberryPi_HttpClient/httpClient.cpp
+ /home/pi/raspberryPi_Modules/RaspberryPi_HttpClient/httpClient.h
+CMakeFiles/Http.dir/main.cpp.o
+ /home/pi/raspberryPi_Modules/RaspberryPi_HttpClient/httpClient.h
+ /home/pi/raspberryPi_Modules/RaspberryPi_HttpClient/main.cpp

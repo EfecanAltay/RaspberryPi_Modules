@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/pi/raspberryPi_Modules/RaspberryPi_HttpClient/httpClient.cpp" "/home/pi/raspberryPi_Modules/RaspberryPi_HttpClient/CMakeFiles/Http.dir/httpClient.cpp.o"
+  "/home/pi/raspberryPi_Modules/RaspberryPi_HttpClient/main.cpp" "/home/pi/raspberryPi_Modules/RaspberryPi_HttpClient/CMakeFiles/Http.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

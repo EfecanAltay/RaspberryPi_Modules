@@ -1,12 +1,4 @@
-#include<stdio.h>
-#include<iostream>
-#include<string>
-#include<curl/curl.h>
-#include<jsoncpp/json/json.h>
-
-using namespace std;
-using namespace Json;
-
+#include "httpClient.h"
 
 static size_t WriteCallback(void *contents, size_t size, size_t nmemb, void *userp)
 {
@@ -14,21 +6,19 @@ static size_t WriteCallback(void *contents, size_t size, size_t nmemb, void *use
     return size * nmemb;
 }
 
-class HttpClient{
-	public:
-		void HttpInit(void);
-		void AddToHeader(string);
-		void GetToURL(string);
-		Value PostToURL(string,Value);
-		string PostToURL(string,string);
-	private:
-		CURL *curl;
-		CURLcode res;
-		struct curl_slist *chunk = NULL;
-		size_t write_to_string(void *,size_t,size_t,void *);
-};
+string HttpClient::JsonToString(jsonData data){
+		FastWriter fw ;
+		jsonData j_reqdata;
+		return fw.write(data);
+}
+jsonData HttpClient::StringToJson(string data){
+		Reader reader;
+		jsonData j_reqdata;
+		reader.parse(data.c_str(),j_reqdata);
+		return j_reqdata;
+}
 void HttpClient::HttpInit(){
-curl_global_init(CURL_GLOBAL_DEFAULT);				
+	curl_global_init(CURL_GLOBAL_DEFAULT);				
 	curl = curl_easy_init();
 }
 void HttpClient::AddToHeader(string header){
@@ -68,12 +58,11 @@ string HttpClient::PostToURL(string url,string data){
 	}
 	curl_global_cleanup();
 }
-Value HttpClient::PostToURL(string url,Value data){
+jsonData HttpClient::PostToURL(string url,jsonData data){
 	if(curl) {
-		FastWriter fw ;
-		Value j_reqdata;
+		//FastWriter fw ;
 		
-		string s_data =fw.write(data);
+		string s_data = JsonToString(data);
 		
 		curl_easy_setopt(curl, CURLOPT_URL,url.c_str());
 		curl_easy_setopt(curl, CURLOPT_POSTFIELDSIZE,(long)s_data.length());
@@ -84,7 +73,7 @@ Value HttpClient::PostToURL(string url,Value data){
 		curl_easy_setopt(curl, CURLOPT_WRITEDATA, &resData);
 	
 		Reader reader;
-		Value j_resdata;
+		jsonData j_resdata;
 		res = curl_easy_perform(curl);
 		
 		reader.parse(resData.c_str(),j_resdata);
@@ -97,21 +86,3 @@ Value HttpClient::PostToURL(string url,Value data){
 	curl_global_cleanup();
 }
 
-int main(){
-	Value j_resdata;
-	
-	HttpClient httpClient ;
-	httpClient.HttpInit();
-		
-	string data = "{'domain_name' : 'test.com' ,'project_name' : 'test domain for my account' }"; 
-	
-	Reader reader;
-	Value j_reqdata;
-	reader.parse(data.c_str(),j_reqdata);
-	
-	//httpClient.GetToURL("https://api.kandy.io/v1.2/accounts/accesstokens?key=DAK8d4953ad50b645cabca174f794792d7a&account_api_secret=DAS8e5d1a3cdd104c03960b4ff0ea34c4c1&account_access_token=AAT08a1e59eb32441e88d4c83b592a8a171");
-	j_resdata = httpClient.PostToURL("https://api.kandy.io/v1.2/accounts/domains?key=AAT5811ba1421304cbba2302627317385ee",j_reqdata);
-	cout << j_resdata["message"].asString()<< endl;
-	
-	return 0;
-}
