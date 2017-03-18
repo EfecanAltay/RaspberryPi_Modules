@@ -1,1 +1,1 @@
-/usr/bin/c++      CMakeFiles/Http.dir/httpClient.cpp.o  -o Http -rdynamic -lcurl 
+/usr/bin/c++      CMakeFiles/Http.dir/httpClient.cpp.o  -o Http -rdynamic -ljsoncpp -lcurl -ljsoncpp -lcurl 

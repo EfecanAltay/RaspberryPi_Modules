@@ -6,11 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/pi/raspberryPi_Modules/RaspberryPi_Http/httpClient.cpp
+/home/pi/raspberryPi_Modules/RaspberryPi_HttpClient/httpClient.cpp
 stdio.h
 -
 iostream
 -
+string
+-
 curl/curl.h
+-
+jsoncpp/json/json.h
 -
 
