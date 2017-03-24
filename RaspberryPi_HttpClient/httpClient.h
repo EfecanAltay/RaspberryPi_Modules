@@ -16,7 +16,8 @@ class HttpClient{
 	public:
 		void HttpInit(void);
 		void AddToHeader(string);
-		void GetToURL(string);
+		string GetToURL(string);
+		jsonData GetJsonToURL(string);
 		jsonData PostToURL(string,jsonData);
 		string PostToURL(string,string);
 		jsonData StringToJson(string);

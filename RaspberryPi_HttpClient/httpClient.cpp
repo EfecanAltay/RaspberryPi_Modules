@@ -26,13 +26,39 @@ void HttpClient::AddToHeader(string header){
 		chunk = curl_slist_append(chunk, header.c_str());
 	}
 }
-void HttpClient::GetToURL(string url){
+string HttpClient::GetToURL(string url){
 	if(curl) {
 		
 		curl_easy_setopt(curl, CURLOPT_HTTPHEADER,chunk);
 		curl_easy_setopt(curl, CURLOPT_URL,url.c_str());
-	
+		
 		res = curl_easy_perform(curl);
+		
+		string resData;
+		curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, WriteCallback);
+		curl_easy_setopt(curl, CURLOPT_WRITEDATA, &resData);
+		
+		return resData;
+		
+		if(res != CURLE_OK)
+		fprintf(stderr, "curl_easy_perform() failed: %s\n",curl_easy_strerror(res));
+		curl_easy_cleanup(curl);
+		}
+		curl_global_cleanup();
+}
+jsonData HttpClient::GetJsonToURL(string url){
+	if(curl) {
+		
+		curl_easy_setopt(curl, CURLOPT_HTTPHEADER,chunk);
+		curl_easy_setopt(curl, CURLOPT_URL,url.c_str());
+		
+		res = curl_easy_perform(curl);
+		
+		string resData;
+		curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, WriteCallback);
+		curl_easy_setopt(curl, CURLOPT_WRITEDATA, &resData);
+		
+		return StringToJson(resData);
 		
 		if(res != CURLE_OK)
 		fprintf(stderr, "curl_easy_perform() failed: %s\n",curl_easy_strerror(res));
@@ -47,6 +73,8 @@ string HttpClient::PostToURL(string url,string data){
 		curl_easy_setopt(curl, CURLOPT_POSTFIELDSIZE,(long)data.length());
 		curl_easy_setopt(curl, CURLOPT_POSTFIELDS, data.c_str());
 	
+		res = curl_easy_perform(curl);
+		
 		string resData;
 		curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, WriteCallback);
 		curl_easy_setopt(curl, CURLOPT_WRITEDATA, &resData);
@@ -60,25 +88,23 @@ string HttpClient::PostToURL(string url,string data){
 }
 jsonData HttpClient::PostToURL(string url,jsonData data){
 	if(curl) {
-		//FastWriter fw ;
-		
 		string s_data = JsonToString(data);
 		
 		curl_easy_setopt(curl, CURLOPT_URL,url.c_str());
 		curl_easy_setopt(curl, CURLOPT_POSTFIELDSIZE,(long)s_data.length());
 		curl_easy_setopt(curl, CURLOPT_POSTFIELDS, s_data.c_str());
 	
+		res = curl_easy_perform(curl);
+		
 		string resData;
 		curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, WriteCallback);
 		curl_easy_setopt(curl, CURLOPT_WRITEDATA, &resData);
 	
-		Reader reader;
-		jsonData j_resdata;
-		res = curl_easy_perform(curl);
+	
 		
-		reader.parse(resData.c_str(),j_resdata);
+		return StringToJson(resData);
 		
-		return j_resdata;
+		
 	if(res != CURLE_OK)
 		fprintf(stderr, "curl_easy_perform() failed: %s\n",curl_easy_strerror(res));
 		curl_easy_cleanup(curl);

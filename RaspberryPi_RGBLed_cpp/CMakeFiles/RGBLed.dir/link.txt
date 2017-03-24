@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/RGBLed.dir/rgbLed.cpp.o CMakeFiles/RGBLed.dir/main.cpp.o  -o RGBLed -rdynamic /usr/local/lib/libwiringPi.so -Wl,-rpath,/usr/local/lib 
