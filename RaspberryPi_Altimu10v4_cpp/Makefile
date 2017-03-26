@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/raspberryPi_Modules/RaspberryPi_Gyro_cpp
+CMAKE_SOURCE_DIR = /home/pi/raspberryPi_Modules/RaspberryPi_Altimu10v4_cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/raspberryPi_Modules/RaspberryPi_Gyro_cpp
+CMAKE_BINARY_DIR = /home/pi/raspberryPi_Modules/RaspberryPi_Altimu10v4_cpp
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/raspberryPi_Modules/RaspberryPi_Gyro_cpp/CMakeFiles /home/pi/raspberryPi_Modules/RaspberryPi_Gyro_cpp/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/raspberryPi_Modules/RaspberryPi_Altimu10v4_cpp/CMakeFiles /home/pi/raspberryPi_Modules/RaspberryPi_Altimu10v4_cpp/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/raspberryPi_Modules/RaspberryPi_Gyro_cpp/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/raspberryPi_Modules/RaspberryPi_Altimu10v4_cpp/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,44 +111,71 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Gyro
+# Target rules for targets named Altimu10v4
 
 # Build rule for target.
-Gyro: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Gyro
-.PHONY : Gyro
+Altimu10v4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Altimu10v4
+.PHONY : Altimu10v4
 
 # fast build rule for target.
-Gyro/fast:
-	$(MAKE) -f CMakeFiles/Gyro.dir/build.make CMakeFiles/Gyro.dir/build
-.PHONY : Gyro/fast
+Altimu10v4/fast:
+	$(MAKE) -f CMakeFiles/Altimu10v4.dir/build.make CMakeFiles/Altimu10v4.dir/build
+.PHONY : Altimu10v4/fast
 
-gyro.o: gyro.cpp.o
+altimu10v4.o: altimu10v4.cpp.o
 
-.PHONY : gyro.o
+.PHONY : altimu10v4.o
 
 # target to build an object file
-gyro.cpp.o:
-	$(MAKE) -f CMakeFiles/Gyro.dir/build.make CMakeFiles/Gyro.dir/gyro.cpp.o
-.PHONY : gyro.cpp.o
+altimu10v4.cpp.o:
+	$(MAKE) -f CMakeFiles/Altimu10v4.dir/build.make CMakeFiles/Altimu10v4.dir/altimu10v4.cpp.o
+.PHONY : altimu10v4.cpp.o
 
-gyro.i: gyro.cpp.i
+altimu10v4.i: altimu10v4.cpp.i
 
-.PHONY : gyro.i
+.PHONY : altimu10v4.i
 
 # target to preprocess a source file
-gyro.cpp.i:
-	$(MAKE) -f CMakeFiles/Gyro.dir/build.make CMakeFiles/Gyro.dir/gyro.cpp.i
-.PHONY : gyro.cpp.i
+altimu10v4.cpp.i:
+	$(MAKE) -f CMakeFiles/Altimu10v4.dir/build.make CMakeFiles/Altimu10v4.dir/altimu10v4.cpp.i
+.PHONY : altimu10v4.cpp.i
 
-gyro.s: gyro.cpp.s
+altimu10v4.s: altimu10v4.cpp.s
 
-.PHONY : gyro.s
+.PHONY : altimu10v4.s
 
 # target to generate assembly for a file
-gyro.cpp.s:
-	$(MAKE) -f CMakeFiles/Gyro.dir/build.make CMakeFiles/Gyro.dir/gyro.cpp.s
-.PHONY : gyro.cpp.s
+altimu10v4.cpp.s:
+	$(MAKE) -f CMakeFiles/Altimu10v4.dir/build.make CMakeFiles/Altimu10v4.dir/altimu10v4.cpp.s
+.PHONY : altimu10v4.cpp.s
+
+main.o: main.cpp.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/Altimu10v4.dir/build.make CMakeFiles/Altimu10v4.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/Altimu10v4.dir/build.make CMakeFiles/Altimu10v4.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/Altimu10v4.dir/build.make CMakeFiles/Altimu10v4.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -158,10 +185,13 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Gyro"
-	@echo "... gyro.o"
-	@echo "... gyro.i"
-	@echo "... gyro.s"
+	@echo "... Altimu10v4"
+	@echo "... altimu10v4.o"
+	@echo "... altimu10v4.i"
+	@echo "... altimu10v4.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

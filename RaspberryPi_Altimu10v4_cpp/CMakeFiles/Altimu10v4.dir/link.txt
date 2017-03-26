@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/Altimu10v4.dir/altimu10v4.cpp.o CMakeFiles/Altimu10v4.dir/main.cpp.o  -o Altimu10v4 -rdynamic /usr/local/lib/libwiringPi.so -Wl,-rpath,/usr/local/lib 

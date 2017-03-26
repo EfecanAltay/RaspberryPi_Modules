@@ -1,3 +1,0 @@
-/home/pi/raspberryPi_Modules/RaspberryPi_Gyro_cpp/CMakeFiles/edit_cache.dir
-/home/pi/raspberryPi_Modules/RaspberryPi_Gyro_cpp/CMakeFiles/rebuild_cache.dir
-/home/pi/raspberryPi_Modules/RaspberryPi_Gyro_cpp/CMakeFiles/Gyro.dir

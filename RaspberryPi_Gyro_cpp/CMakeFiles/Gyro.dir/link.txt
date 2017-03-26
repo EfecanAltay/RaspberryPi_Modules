@@ -1,1 +1,0 @@
-/usr/bin/c++      CMakeFiles/Gyro.dir/gyro.cpp.o  -o Gyro -rdynamic /usr/local/lib/libwiringPi.so -Wl,-rpath,/usr/local/lib 

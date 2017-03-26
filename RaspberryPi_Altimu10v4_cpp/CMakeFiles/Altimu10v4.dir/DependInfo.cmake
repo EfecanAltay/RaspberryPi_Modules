@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/pi/raspberryPi_Modules/RaspberryPi_Gyro_cpp/gyro.cpp" "/home/pi/raspberryPi_Modules/RaspberryPi_Gyro_cpp/CMakeFiles/Gyro.dir/gyro.cpp.o"
+  "/home/pi/raspberryPi_Modules/RaspberryPi_Altimu10v4_cpp/altimu10v4.cpp" "/home/pi/raspberryPi_Modules/RaspberryPi_Altimu10v4_cpp/CMakeFiles/Altimu10v4.dir/altimu10v4.cpp.o"
+  "/home/pi/raspberryPi_Modules/RaspberryPi_Altimu10v4_cpp/main.cpp" "/home/pi/raspberryPi_Modules/RaspberryPi_Altimu10v4_cpp/CMakeFiles/Altimu10v4.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
