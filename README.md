@@ -2,13 +2,15 @@
 This project include raspberrypi's modules
 
 - [x] HttpClient<br>
-    - GetData
-    - PostData
+    - [x] GetData
+    - [x] PostData
 - [x] StepMotor<br>
 - [x] ServoMotor<br>
 - [x] UltroSonicSen<br>
 - [x] RGBLed<br>
-- [ ] Gyro<br>
+- [ ] Altimu<br>
+    - [x] Accelerometer
+    - [ ] Gyro
 
 # How To Use
 
