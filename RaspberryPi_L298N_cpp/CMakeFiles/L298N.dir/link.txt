@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/L298N.dir/l298n.cpp.o CMakeFiles/L298N.dir/main.cpp.o  -o L298N -rdynamic /usr/local/lib/libwiringPi.so -Wl,-rpath,/usr/local/lib 
