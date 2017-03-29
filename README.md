@@ -11,7 +11,9 @@ This project include raspberrypi's modules
 - [x] L298N MotorDriver<br>
 - [ ] Altimu<br>
     - [x] Accelerometer
-    - [ ] Gyro
+    - [x] Gyro
+	- [ ] Magnometer
+	- [ ] Barometer
 
 # How To Use
 

@@ -1,9 +1,9 @@
 #include "servoMotor.h"
 
-int main(){
-	StepMotor stepMotor1(8);
-	StepMotor stepMotor2(9);
-	
+StepMotor stepMotor1(8);
+StepMotor stepMotor2(9);
+
+void Reverse(){
 	stepMotor1.turnDgree(0);
 	stepMotor2.turnDgree(180);
 	int a;
@@ -24,6 +24,16 @@ int main(){
 				reverse = 1;
 			a = 0 ;
 		}
+	}	
+}
+void StepMotor(){
+	stepMotor1.turnDgree(0);
+	stepMotor2.turnDgree(180);
+	while(1){
+		
 	}
+}
+int main(){
+	Reverse();
 	return 0 ;
 }

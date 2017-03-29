@@ -28,6 +28,7 @@ class Altimu10v4{
 		void gyroInit();
 		void accInit();
 		vector3D gyroPos,accPos ;
+		AltiumDevice device ;
 		
 };
 #endif

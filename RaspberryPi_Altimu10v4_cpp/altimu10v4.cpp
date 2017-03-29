@@ -35,6 +35,7 @@ Altimu10v4::Altimu10v4(int _gyroAddr,int _accAddr,int _magnoAddr){
 	wiringPiSetup();
 }
 void Altimu10v4::selectDevice(AltiumDevice dev){
+	device = dev;
 	switch(dev){
 		case Gyro :
 			fd = wiringPiI2CSetup(gyroAddr);
@@ -89,32 +90,45 @@ vector3D Altimu10v4::readData(){
 	
 	//cout <<"x: " << xh << " y: " << yh<< " z: " << zh <<endl;
 	
-	if(xh >190)
-		accPos.x = (xh-255)/2*3 ;
-	else
-		accPos.x = xh/2*3;
-	if(yh >190)
-		accPos.y = (yh-255)/2*3 ;
-	else
-		accPos.y = yh/2*3 ;
-	if(zh >190)
-		accPos.z = (zh-255)/2*3 ;
-	else
-		accPos.z = zh/2*3;
+	switch(device){
+		case Acc:
+			if(xh >190)
+				accPos.x = (xh-255)/2*3 ;
+			else
+				accPos.x = xh/2*3;
+			if(yh >190)
+				accPos.y = (yh-255)/2*3 ;
+			else
+				accPos.y = yh/2*3 ;
+			if(zh >190)
+				accPos.z = (zh-255)/2*3 ;
+			else
+				accPos.z = zh/2*3;
+			
+			if(accPos.z < 0){
+				accPos.x = 180 - accPos.x;
+				accPos.y = 180 - accPos.y;
+			}
+			if(accPos.x < 0){
+				accPos.x = 360 + accPos.x   ;
+			}
+			if(accPos.y < 0){
+				accPos.y = 360 + accPos.y;
+			}
+			return accPos;
+			break;
+		case Gyro:
+				gyroPos.x = xh;
+				gyroPos.y = yh;
+				gyroPos.z = zh;
+				return gyroPos;
+			break;
+	}
 	
-	if(accPos.z < 0){
-		accPos.x = 180 - accPos.x;
-		accPos.y = 180 - accPos.y;
-	}
-	if(accPos.x < 0){
-		accPos.x = 360 + accPos.x   ;
-	}
-	if(accPos.y < 0){
-		accPos.y = 360 + accPos.y;
-	}
+	
 		
 	
-	return accPos;
+	
 }
 void Altimu10v4::accInit(){
 //Gyro adress : 0b1101011
