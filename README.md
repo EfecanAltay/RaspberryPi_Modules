@@ -8,6 +8,7 @@ This project include raspberrypi's modules
 - [x] ServoMotor<br>
 - [x] UltroSonicSen<br>
 - [x] RGBLed<br>
+- [x] L298N MotorDriver<br>
 - [ ] Altimu<br>
     - [x] Accelerometer
     - [ ] Gyro
