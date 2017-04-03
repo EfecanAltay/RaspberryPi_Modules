@@ -1,0 +1,7 @@
+/home/pi/raspberryPi_Modules/build/CMakeFiles/edit_cache.dir
+/home/pi/raspberryPi_Modules/build/CMakeFiles/install/strip.dir
+/home/pi/raspberryPi_Modules/build/CMakeFiles/rebuild_cache.dir
+/home/pi/raspberryPi_Modules/build/CMakeFiles/install.dir
+/home/pi/raspberryPi_Modules/build/CMakeFiles/install/local.dir
+/home/pi/raspberryPi_Modules/build/CMakeFiles/list_install_components.dir
+/home/pi/raspberryPi_Modules/build/CMakeFiles/WiringPiModules.dir

@@ -1,0 +1,3 @@
+/usr/lib/WiringPiModules/libWiringPiModules.so
+/usr/local/include/wiringPiModules.h
+/usr/local/include/WiringPiModules/RaspberryPi_ServoMotor_cpp/servoMotor.h

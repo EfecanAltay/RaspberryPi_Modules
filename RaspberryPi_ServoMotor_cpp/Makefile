@@ -150,32 +150,32 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/ServoMotor.dir/build.make CMakeFiles/ServoMotor.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-servoMotor.o: servoMotor.cpp.o
+src/servoMotor.o: src/servoMotor.cpp.o
 
-.PHONY : servoMotor.o
+.PHONY : src/servoMotor.o
 
 # target to build an object file
-servoMotor.cpp.o:
-	$(MAKE) -f CMakeFiles/ServoMotor.dir/build.make CMakeFiles/ServoMotor.dir/servoMotor.cpp.o
-.PHONY : servoMotor.cpp.o
+src/servoMotor.cpp.o:
+	$(MAKE) -f CMakeFiles/ServoMotor.dir/build.make CMakeFiles/ServoMotor.dir/src/servoMotor.cpp.o
+.PHONY : src/servoMotor.cpp.o
 
-servoMotor.i: servoMotor.cpp.i
+src/servoMotor.i: src/servoMotor.cpp.i
 
-.PHONY : servoMotor.i
+.PHONY : src/servoMotor.i
 
 # target to preprocess a source file
-servoMotor.cpp.i:
-	$(MAKE) -f CMakeFiles/ServoMotor.dir/build.make CMakeFiles/ServoMotor.dir/servoMotor.cpp.i
-.PHONY : servoMotor.cpp.i
+src/servoMotor.cpp.i:
+	$(MAKE) -f CMakeFiles/ServoMotor.dir/build.make CMakeFiles/ServoMotor.dir/src/servoMotor.cpp.i
+.PHONY : src/servoMotor.cpp.i
 
-servoMotor.s: servoMotor.cpp.s
+src/servoMotor.s: src/servoMotor.cpp.s
 
-.PHONY : servoMotor.s
+.PHONY : src/servoMotor.s
 
 # target to generate assembly for a file
-servoMotor.cpp.s:
-	$(MAKE) -f CMakeFiles/ServoMotor.dir/build.make CMakeFiles/ServoMotor.dir/servoMotor.cpp.s
-.PHONY : servoMotor.cpp.s
+src/servoMotor.cpp.s:
+	$(MAKE) -f CMakeFiles/ServoMotor.dir/build.make CMakeFiles/ServoMotor.dir/src/servoMotor.cpp.s
+.PHONY : src/servoMotor.cpp.s
 
 # Help Target
 help:
@@ -189,9 +189,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... servoMotor.o"
-	@echo "... servoMotor.i"
-	@echo "... servoMotor.s"
+	@echo "... src/servoMotor.o"
+	@echo "... src/servoMotor.i"
+	@echo "... src/servoMotor.s"
 .PHONY : help
 
 

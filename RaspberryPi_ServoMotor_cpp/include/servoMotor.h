@@ -4,9 +4,9 @@
 #include "wiringPi.h"
 #include <softPwm.h>
 
-class StepMotor{
+class ServoMotor{
 	public:
-		StepMotor(int);
+		ServoMotor(int);
 		int minValue;
 		int maxValue;
 		int sleep;

@@ -57,28 +57,28 @@ include CMakeFiles/ServoMotor.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ServoMotor.dir/flags.make
 
-CMakeFiles/ServoMotor.dir/servoMotor.cpp.o: CMakeFiles/ServoMotor.dir/flags.make
-CMakeFiles/ServoMotor.dir/servoMotor.cpp.o: servoMotor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ServoMotor.dir/servoMotor.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ServoMotor.dir/servoMotor.cpp.o -c /home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/servoMotor.cpp
+CMakeFiles/ServoMotor.dir/src/servoMotor.cpp.o: CMakeFiles/ServoMotor.dir/flags.make
+CMakeFiles/ServoMotor.dir/src/servoMotor.cpp.o: src/servoMotor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ServoMotor.dir/src/servoMotor.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ServoMotor.dir/src/servoMotor.cpp.o -c /home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/src/servoMotor.cpp
 
-CMakeFiles/ServoMotor.dir/servoMotor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ServoMotor.dir/servoMotor.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/servoMotor.cpp > CMakeFiles/ServoMotor.dir/servoMotor.cpp.i
+CMakeFiles/ServoMotor.dir/src/servoMotor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ServoMotor.dir/src/servoMotor.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/src/servoMotor.cpp > CMakeFiles/ServoMotor.dir/src/servoMotor.cpp.i
 
-CMakeFiles/ServoMotor.dir/servoMotor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ServoMotor.dir/servoMotor.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/servoMotor.cpp -o CMakeFiles/ServoMotor.dir/servoMotor.cpp.s
+CMakeFiles/ServoMotor.dir/src/servoMotor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ServoMotor.dir/src/servoMotor.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/src/servoMotor.cpp -o CMakeFiles/ServoMotor.dir/src/servoMotor.cpp.s
 
-CMakeFiles/ServoMotor.dir/servoMotor.cpp.o.requires:
+CMakeFiles/ServoMotor.dir/src/servoMotor.cpp.o.requires:
 
-.PHONY : CMakeFiles/ServoMotor.dir/servoMotor.cpp.o.requires
+.PHONY : CMakeFiles/ServoMotor.dir/src/servoMotor.cpp.o.requires
 
-CMakeFiles/ServoMotor.dir/servoMotor.cpp.o.provides: CMakeFiles/ServoMotor.dir/servoMotor.cpp.o.requires
-	$(MAKE) -f CMakeFiles/ServoMotor.dir/build.make CMakeFiles/ServoMotor.dir/servoMotor.cpp.o.provides.build
-.PHONY : CMakeFiles/ServoMotor.dir/servoMotor.cpp.o.provides
+CMakeFiles/ServoMotor.dir/src/servoMotor.cpp.o.provides: CMakeFiles/ServoMotor.dir/src/servoMotor.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ServoMotor.dir/build.make CMakeFiles/ServoMotor.dir/src/servoMotor.cpp.o.provides.build
+.PHONY : CMakeFiles/ServoMotor.dir/src/servoMotor.cpp.o.provides
 
-CMakeFiles/ServoMotor.dir/servoMotor.cpp.o.provides.build: CMakeFiles/ServoMotor.dir/servoMotor.cpp.o
+CMakeFiles/ServoMotor.dir/src/servoMotor.cpp.o.provides.build: CMakeFiles/ServoMotor.dir/src/servoMotor.cpp.o
 
 
 CMakeFiles/ServoMotor.dir/main.cpp.o: CMakeFiles/ServoMotor.dir/flags.make
@@ -107,13 +107,13 @@ CMakeFiles/ServoMotor.dir/main.cpp.o.provides.build: CMakeFiles/ServoMotor.dir/m
 
 # Object files for target ServoMotor
 ServoMotor_OBJECTS = \
-"CMakeFiles/ServoMotor.dir/servoMotor.cpp.o" \
+"CMakeFiles/ServoMotor.dir/src/servoMotor.cpp.o" \
 "CMakeFiles/ServoMotor.dir/main.cpp.o"
 
 # External object files for target ServoMotor
 ServoMotor_EXTERNAL_OBJECTS =
 
-ServoMotor: CMakeFiles/ServoMotor.dir/servoMotor.cpp.o
+ServoMotor: CMakeFiles/ServoMotor.dir/src/servoMotor.cpp.o
 ServoMotor: CMakeFiles/ServoMotor.dir/main.cpp.o
 ServoMotor: CMakeFiles/ServoMotor.dir/build.make
 ServoMotor: /usr/local/lib/libwiringPi.so
@@ -126,7 +126,7 @@ CMakeFiles/ServoMotor.dir/build: ServoMotor
 
 .PHONY : CMakeFiles/ServoMotor.dir/build
 
-CMakeFiles/ServoMotor.dir/requires: CMakeFiles/ServoMotor.dir/servoMotor.cpp.o.requires
+CMakeFiles/ServoMotor.dir/requires: CMakeFiles/ServoMotor.dir/src/servoMotor.cpp.o.requires
 CMakeFiles/ServoMotor.dir/requires: CMakeFiles/ServoMotor.dir/main.cpp.o.requires
 
 .PHONY : CMakeFiles/ServoMotor.dir/requires

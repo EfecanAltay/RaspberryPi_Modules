@@ -1,6 +1,6 @@
-#include "servoMotor.h"
+#include "../include/servoMotor.h"
 
-StepMotor::StepMotor(int pwmPin){
+ServoMotor::ServoMotor(int pwmPin){
 	wiringPiSetup () ;
 	int status = softPwmCreate (pwmPin,0, 200);
 	minValue = 6;
@@ -10,11 +10,11 @@ StepMotor::StepMotor(int pwmPin){
 	pwm_Pin = pwmPin;
 	softPwmWrite(pwmPin,minValue);
 }
-void StepMotor::turnDgree(int dgree){
+void ServoMotor::turnDgree(int dgree){
 	currentValue = minValue + (float)((maxValue-minValue)/180.f) * dgree;
 	softPwmWrite(pwm_Pin,currentValue);
 }
-int StepMotor::addDgree(int dgree){
+int ServoMotor::addDgree(int dgree){
 	currentValue = currentValue + (float)((maxValue-minValue)/180.f) * dgree;
 	if(currentValue > maxValue){
 		currentValue = maxValue;
@@ -27,7 +27,7 @@ int StepMotor::addDgree(int dgree){
 	softPwmWrite(pwm_Pin,currentValue);
 	return 0;
 }
-int StepMotor::addDgreeAndReturn(int dgree){
+int ServoMotor::addDgreeAndReturn(int dgree){
 	currentValue = currentValue + (float)((maxValue-minValue)/180.f) * dgree;
 	if(currentValue > maxValue){
 		currentValue = maxValue;

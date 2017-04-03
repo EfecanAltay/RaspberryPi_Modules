@@ -28,28 +28,28 @@ The CXX compiler identification is GNU, found in "/home/pi/raspberryPi_Modules/R
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a996b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a996b.dir/build.make CMakeFiles/cmTC_a996b.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_f7823/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f7823.dir/build.make CMakeFiles/cmTC_f7823.dir/build
 make[1]: Entering directory '/home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a996b.dir/testCCompiler.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_a996b.dir/testCCompiler.c.o   -c /home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_a996b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a996b.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_a996b.dir/testCCompiler.c.o  -o cmTC_a996b -rdynamic 
+Building C object CMakeFiles/cmTC_f7823.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_f7823.dir/testCCompiler.c.o   -c /home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_f7823
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7823.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_f7823.dir/testCCompiler.c.o  -o cmTC_f7823 -rdynamic 
 make[1]: Leaving directory '/home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a1714/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a1714.dir/build.make CMakeFiles/cmTC_a1714.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_cace7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cace7.dir/build.make CMakeFiles/cmTC_cace7.dir/build
 make[1]: Entering directory '/home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a1714.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_a1714.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.6/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_a1714
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1714.dir/link.txt --verbose=1
-/usr/bin/cc      -v CMakeFiles/cmTC_a1714.dir/CMakeCCompilerABI.c.o  -o cmTC_a1714 -rdynamic  
+Building C object CMakeFiles/cmTC_cace7.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_cace7.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.6/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_cace7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cace7.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_cace7.dir/CMakeCCompilerABI.c.o  -o cmTC_cace7 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-linux-gnueabihf/4.9/lto-wrapper
@@ -59,8 +59,8 @@ Thread model: posix
 gcc version 4.9.2 (Raspbian 4.9.2-10) 
 COMPILER_PATH=/usr/lib/gcc/arm-linux-gnueabihf/4.9/:/usr/lib/gcc/arm-linux-gnueabihf/4.9/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/4.9/:/usr/lib/gcc/arm-linux-gnueabihf/
 LIBRARY_PATH=/usr/lib/gcc/arm-linux-gnueabihf/4.9/:/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a1714' '-rdynamic' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu'
- /usr/lib/gcc/arm-linux-gnueabihf/4.9/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/cciWj5t6.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu -m armelf_linux_eabi -o cmTC_a1714 /usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/4.9/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/4.9 -L/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_a1714.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/arm-linux-gnueabihf/4.9/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cace7' '-rdynamic' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu'
+ /usr/lib/gcc/arm-linux-gnueabihf/4.9/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccsUJpKg.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu -m armelf_linux_eabi -o cmTC_cace7 /usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/4.9/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/4.9 -L/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_cace7.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/arm-linux-gnueabihf/4.9/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crtn.o
 make[1]: Leaving directory '/home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/CMakeFiles/CMakeTmp'
 
 
@@ -68,14 +68,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_a1714/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_a1714.dir/build.make CMakeFiles/cmTC_a1714.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_cace7/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_cace7.dir/build.make CMakeFiles/cmTC_cace7.dir/build]
   ignore line: [make[1]: Entering directory '/home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_a1714.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_a1714.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.6/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_a1714]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1714.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_a1714.dir/CMakeCCompilerABI.c.o  -o cmTC_a1714 -rdynamic  ]
+  ignore line: [Building C object CMakeFiles/cmTC_cace7.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_cace7.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.6/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_cace7]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cace7.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_cace7.dir/CMakeCCompilerABI.c.o  -o cmTC_cace7 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-linux-gnueabihf/4.9/lto-wrapper]
@@ -85,13 +85,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 4.9.2 (Raspbian 4.9.2-10) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/arm-linux-gnueabihf/4.9/:/usr/lib/gcc/arm-linux-gnueabihf/4.9/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/4.9/:/usr/lib/gcc/arm-linux-gnueabihf/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-linux-gnueabihf/4.9/:/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a1714' '-rdynamic' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu']
-  link line: [ /usr/lib/gcc/arm-linux-gnueabihf/4.9/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/cciWj5t6.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu -m armelf_linux_eabi -o cmTC_a1714 /usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/4.9/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/4.9 -L/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_a1714.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/arm-linux-gnueabihf/4.9/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cace7' '-rdynamic' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu']
+  link line: [ /usr/lib/gcc/arm-linux-gnueabihf/4.9/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccsUJpKg.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu -m armelf_linux_eabi -o cmTC_cace7 /usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/4.9/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/4.9 -L/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_cace7.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/arm-linux-gnueabihf/4.9/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crtn.o]
     arg [/usr/lib/gcc/arm-linux-gnueabihf/4.9/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/arm-linux-gnueabihf/4.9/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/4.9/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cciWj5t6.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccsUJpKg.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -108,7 +108,7 @@ Parsed C implicit link information from above output:
     arg [-m] ==> ignore
     arg [armelf_linux_eabi] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_a1714] ==> ignore
+    arg [cmTC_cace7] ==> ignore
     arg [/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crt1.o] ==> ignore
     arg [/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crti.o] ==> ignore
     arg [/usr/lib/gcc/arm-linux-gnueabihf/4.9/crtbegin.o] ==> ignore
@@ -117,7 +117,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../..] ==> dir [/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../..]
     arg [-L/lib/arm-linux-gnueabihf] ==> dir [/lib/arm-linux-gnueabihf]
     arg [-L/usr/lib/arm-linux-gnueabihf] ==> dir [/usr/lib/arm-linux-gnueabihf]
-    arg [CMakeFiles/cmTC_a1714.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_cace7.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -148,14 +148,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e3e41/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e3e41.dir/build.make CMakeFiles/cmTC_e3e41.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_c487b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c487b.dir/build.make CMakeFiles/cmTC_c487b.dir/build
 make[1]: Entering directory '/home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e3e41.dir/feature_tests.c.o
-/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_e3e41.dir/feature_tests.c.o   -c /home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/CMakeFiles/feature_tests.c
-Linking C executable cmTC_e3e41
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3e41.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_e3e41.dir/feature_tests.c.o  -o cmTC_e3e41 -rdynamic 
+Building C object CMakeFiles/cmTC_c487b.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_c487b.dir/feature_tests.c.o   -c /home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/CMakeFiles/feature_tests.c
+Linking C executable cmTC_c487b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c487b.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_c487b.dir/feature_tests.c.o  -o cmTC_c487b -rdynamic 
 make[1]: Leaving directory '/home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/CMakeFiles/CMakeTmp'
 
 
@@ -168,14 +168,14 @@ make[1]: Leaving directory '/home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8aba3/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8aba3.dir/build.make CMakeFiles/cmTC_8aba3.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_0dc92/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0dc92.dir/build.make CMakeFiles/cmTC_0dc92.dir/build
 make[1]: Entering directory '/home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8aba3.dir/feature_tests.c.o
-/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_8aba3.dir/feature_tests.c.o   -c /home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/CMakeFiles/feature_tests.c
-Linking C executable cmTC_8aba3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8aba3.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_8aba3.dir/feature_tests.c.o  -o cmTC_8aba3 -rdynamic 
+Building C object CMakeFiles/cmTC_0dc92.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_0dc92.dir/feature_tests.c.o   -c /home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/CMakeFiles/feature_tests.c
+Linking C executable cmTC_0dc92
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0dc92.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_0dc92.dir/feature_tests.c.o  -o cmTC_0dc92 -rdynamic 
 make[1]: Leaving directory '/home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/CMakeFiles/CMakeTmp'
 
 
@@ -188,14 +188,14 @@ make[1]: Leaving directory '/home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c0e8a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c0e8a.dir/build.make CMakeFiles/cmTC_c0e8a.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_ec835/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ec835.dir/build.make CMakeFiles/cmTC_ec835.dir/build
 make[1]: Entering directory '/home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c0e8a.dir/feature_tests.c.o
-/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_c0e8a.dir/feature_tests.c.o   -c /home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/CMakeFiles/feature_tests.c
-Linking C executable cmTC_c0e8a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0e8a.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_c0e8a.dir/feature_tests.c.o  -o cmTC_c0e8a -rdynamic 
+Building C object CMakeFiles/cmTC_ec835.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_ec835.dir/feature_tests.c.o   -c /home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/CMakeFiles/feature_tests.c
+Linking C executable cmTC_ec835
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec835.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_ec835.dir/feature_tests.c.o  -o cmTC_ec835 -rdynamic 
 make[1]: Leaving directory '/home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/CMakeFiles/CMakeTmp'
 
 
@@ -206,28 +206,28 @@ make[1]: Leaving directory '/home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_31e31/fast"
-/usr/bin/make -f CMakeFiles/cmTC_31e31.dir/build.make CMakeFiles/cmTC_31e31.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_ed853/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ed853.dir/build.make CMakeFiles/cmTC_ed853.dir/build
 make[1]: Entering directory '/home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_31e31.dir/testCXXCompiler.cxx.o
-/usr/bin/c++      -o CMakeFiles/cmTC_31e31.dir/testCXXCompiler.cxx.o -c /home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_31e31
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31e31.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_31e31.dir/testCXXCompiler.cxx.o  -o cmTC_31e31 -rdynamic 
+Building CXX object CMakeFiles/cmTC_ed853.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_ed853.dir/testCXXCompiler.cxx.o -c /home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_ed853
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed853.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_ed853.dir/testCXXCompiler.cxx.o  -o cmTC_ed853 -rdynamic 
 make[1]: Leaving directory '/home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_eb196/fast"
-/usr/bin/make -f CMakeFiles/cmTC_eb196.dir/build.make CMakeFiles/cmTC_eb196.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_e49db/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e49db.dir/build.make CMakeFiles/cmTC_e49db.dir/build
 make[1]: Entering directory '/home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_eb196.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++      -o CMakeFiles/cmTC_eb196.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.6/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_eb196
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb196.dir/link.txt --verbose=1
-/usr/bin/c++       -v CMakeFiles/cmTC_eb196.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_eb196 -rdynamic  
+Building CXX object CMakeFiles/cmTC_e49db.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_e49db.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.6/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_e49db
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e49db.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_e49db.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_e49db -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-linux-gnueabihf/4.9/lto-wrapper
@@ -237,8 +237,8 @@ Thread model: posix
 gcc version 4.9.2 (Raspbian 4.9.2-10) 
 COMPILER_PATH=/usr/lib/gcc/arm-linux-gnueabihf/4.9/:/usr/lib/gcc/arm-linux-gnueabihf/4.9/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/4.9/:/usr/lib/gcc/arm-linux-gnueabihf/
 LIBRARY_PATH=/usr/lib/gcc/arm-linux-gnueabihf/4.9/:/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_eb196' '-rdynamic' '-shared-libgcc' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu'
- /usr/lib/gcc/arm-linux-gnueabihf/4.9/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHfQir9.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu -m armelf_linux_eabi -o cmTC_eb196 /usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/4.9/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/4.9 -L/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_eb196.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/arm-linux-gnueabihf/4.9/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e49db' '-rdynamic' '-shared-libgcc' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu'
+ /usr/lib/gcc/arm-linux-gnueabihf/4.9/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHbicQu.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu -m armelf_linux_eabi -o cmTC_e49db /usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/4.9/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/4.9 -L/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_e49db.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/arm-linux-gnueabihf/4.9/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crtn.o
 make[1]: Leaving directory '/home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/CMakeFiles/CMakeTmp'
 
 
@@ -246,14 +246,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_eb196/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_eb196.dir/build.make CMakeFiles/cmTC_eb196.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_e49db/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_e49db.dir/build.make CMakeFiles/cmTC_e49db.dir/build]
   ignore line: [make[1]: Entering directory '/home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_eb196.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_eb196.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.6/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_eb196]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb196.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_eb196.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_eb196 -rdynamic  ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_e49db.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_e49db.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.6/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_e49db]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e49db.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_e49db.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_e49db -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-linux-gnueabihf/4.9/lto-wrapper]
@@ -263,13 +263,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 4.9.2 (Raspbian 4.9.2-10) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/arm-linux-gnueabihf/4.9/:/usr/lib/gcc/arm-linux-gnueabihf/4.9/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/4.9/:/usr/lib/gcc/arm-linux-gnueabihf/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-linux-gnueabihf/4.9/:/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_eb196' '-rdynamic' '-shared-libgcc' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu']
-  link line: [ /usr/lib/gcc/arm-linux-gnueabihf/4.9/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHfQir9.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu -m armelf_linux_eabi -o cmTC_eb196 /usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/4.9/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/4.9 -L/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_eb196.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/arm-linux-gnueabihf/4.9/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e49db' '-rdynamic' '-shared-libgcc' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu']
+  link line: [ /usr/lib/gcc/arm-linux-gnueabihf/4.9/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHbicQu.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu -m armelf_linux_eabi -o cmTC_e49db /usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/4.9/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/4.9 -L/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTC_e49db.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/arm-linux-gnueabihf/4.9/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crtn.o]
     arg [/usr/lib/gcc/arm-linux-gnueabihf/4.9/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/arm-linux-gnueabihf/4.9/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/4.9/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccHfQir9.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccHbicQu.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -286,7 +286,7 @@ Parsed CXX implicit link information from above output:
     arg [-m] ==> ignore
     arg [armelf_linux_eabi] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_eb196] ==> ignore
+    arg [cmTC_e49db] ==> ignore
     arg [/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crt1.o] ==> ignore
     arg [/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crti.o] ==> ignore
     arg [/usr/lib/gcc/arm-linux-gnueabihf/4.9/crtbegin.o] ==> ignore
@@ -295,7 +295,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../..] ==> dir [/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../..]
     arg [-L/lib/arm-linux-gnueabihf] ==> dir [/lib/arm-linux-gnueabihf]
     arg [-L/usr/lib/arm-linux-gnueabihf] ==> dir [/usr/lib/arm-linux-gnueabihf]
-    arg [CMakeFiles/cmTC_eb196.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_e49db.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -324,14 +324,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_43e22/fast"
-/usr/bin/make -f CMakeFiles/cmTC_43e22.dir/build.make CMakeFiles/cmTC_43e22.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_fcd3c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fcd3c.dir/build.make CMakeFiles/cmTC_fcd3c.dir/build
 make[1]: Entering directory '/home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_43e22.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_43e22.dir/feature_tests.cxx.o -c /home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_43e22
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43e22.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_43e22.dir/feature_tests.cxx.o  -o cmTC_43e22 -rdynamic 
+Building CXX object CMakeFiles/cmTC_fcd3c.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_fcd3c.dir/feature_tests.cxx.o -c /home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_fcd3c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fcd3c.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_fcd3c.dir/feature_tests.cxx.o  -o cmTC_fcd3c -rdynamic 
 make[1]: Leaving directory '/home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/CMakeFiles/CMakeTmp'
 
 
@@ -397,14 +397,14 @@ make[1]: Leaving directory '/home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a1abb/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a1abb.dir/build.make CMakeFiles/cmTC_a1abb.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_55b15/fast"
+/usr/bin/make -f CMakeFiles/cmTC_55b15.dir/build.make CMakeFiles/cmTC_55b15.dir/build
 make[1]: Entering directory '/home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_a1abb.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_a1abb.dir/feature_tests.cxx.o -c /home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_a1abb
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1abb.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_a1abb.dir/feature_tests.cxx.o  -o cmTC_a1abb -rdynamic 
+Building CXX object CMakeFiles/cmTC_55b15.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_55b15.dir/feature_tests.cxx.o -c /home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_55b15
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55b15.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_55b15.dir/feature_tests.cxx.o  -o cmTC_55b15 -rdynamic 
 make[1]: Leaving directory '/home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/CMakeFiles/CMakeTmp'
 
 
@@ -470,14 +470,14 @@ make[1]: Leaving directory '/home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6e537/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6e537.dir/build.make CMakeFiles/cmTC_6e537.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_454f5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_454f5.dir/build.make CMakeFiles/cmTC_454f5.dir/build
 make[1]: Entering directory '/home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_6e537.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_6e537.dir/feature_tests.cxx.o -c /home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_6e537
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e537.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_6e537.dir/feature_tests.cxx.o  -o cmTC_6e537 -rdynamic 
+Building CXX object CMakeFiles/cmTC_454f5.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_454f5.dir/feature_tests.cxx.o -c /home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_454f5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_454f5.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_454f5.dir/feature_tests.cxx.o  -o cmTC_454f5 -rdynamic 
 make[1]: Leaving directory '/home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/CMakeFiles/CMakeTmp'
 
 

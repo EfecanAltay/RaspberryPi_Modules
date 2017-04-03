@@ -6,19 +6,25 @@
 
 #IncludeRegexTransform: 
 
-/home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/main.cpp
-servoMotor.h
-/home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/servoMotor.h
-
-/home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/servoMotor.cpp
-servoMotor.h
-/home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/servoMotor.h
-
-/home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/servoMotor.h
+/home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/./include/servoMotor.h
 wiringPi.h
-/home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/wiringPi.h
+/home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/./include/wiringPi.h
 softPwm.h
 -
+
+/home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/include/servoMotor.h
+wiringPi.h
+/home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/include/wiringPi.h
+softPwm.h
+-
+
+/home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/main.cpp
+./include/servoMotor.h
+/home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/./include/servoMotor.h
+
+/home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/src/servoMotor.cpp
+../include/servoMotor.h
+/home/pi/raspberryPi_Modules/RaspberryPi_ServoMotor_cpp/include/servoMotor.h
 
 /usr/local/include/softPwm.h
 

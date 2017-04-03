@@ -1,4 +1,4 @@
-#include "servoMotor.h"
+#include "./include/servoMotor.h"
 
 StepMotor stepMotor1(8);
 StepMotor stepMotor2(9);

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ServoMotor.dir/servoMotor.cpp.o"
+  "CMakeFiles/ServoMotor.dir/src/servoMotor.cpp.o"
   "CMakeFiles/ServoMotor.dir/main.cpp.o"
   "ServoMotor.pdb"
   "ServoMotor"

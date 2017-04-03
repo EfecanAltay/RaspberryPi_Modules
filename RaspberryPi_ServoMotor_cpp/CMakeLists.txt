@@ -5,6 +5,8 @@ find_package(WiringPi REQUIRED)
 
 include_directories(${WIRINGPI_INCLUDE_DIRS})
 
-add_executable( ServoMotor servoMotor.cpp main.cpp)
+file(GLOB SOURCES src/*.cpp)
 
-target_link_libraries( ServoMotor ${WIRINGPI_LIBRARIES})
+add_executable( ${PROJECT_NAME} ${SOURCES} main.cpp)
+
+target_link_libraries( ${PROJECT_NAME} ${WIRINGPI_LIBRARIES})
