@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,libWiringPiModules.so -o libWiringPiModules.so CMakeFiles/WiringPiModules.dir/RaspberryPi_ServoMotor_cpp/src/servoMotor.cpp.o 
